@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/2687b971-235f-452c-b942-893b03d6f936)![image](https://github.com/user-attachments/assets/2687b971-235f-452c-b942-893b03d6f936)<div align="center">
-  <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/47a5212d-7794-4c49-ae09-38466b9c9c4c" alt="복둥이의 시간여행 메인 이미지">
-</div>
+<p align="center">
+  <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/47a5212d-7794-4c49-ae09-38466b9c9c4c" width="320" alt="복둥이의 시간여행 메인 이미지">
+</p>
 
 <h1 align="center">복둥이의 시간여행 프로젝트</h1>
 
@@ -36,11 +36,11 @@
 
 ## 🎮 게임 플레이 흐름
 
-1. **인트로 영상** → 
-2. **튜토리얼(복둥이)** →
-3. **캐릭터 친구 선택** →
-4. **AR 유물 찾기 미션** →
-5. **성공/실패 반응 및 대사 출력** →
+1. **인트로 영상** →  
+2. **튜토리얼(복둥이)** →  
+3. **캐릭터 친구 선택** →  
+4. **AR 유물 찾기 미션** →  
+5. **성공/실패 반응 및 대사 출력** →  
 6. **모든 미션 완료 시 엔딩 영상 재생**
 
 ---
@@ -66,17 +66,16 @@
 
 | 클래스 이름 | 설명 |
 |-------------|------|
-| `GameManager.cs` | 싱글톤. 전체 게임 흐름 및 진행 상황 저장 (`Mission_Complete`, `PausePopup` 등). |
-| `DialogManager.cs` | 대화창 관리, 타이핑 연출, 나레이션 타이밍, 버튼 제어 포함. |
-| `SoundManager.cs` / `SoundFunction.cs` | 배경음, 효과음, 캐릭터 음성 재생 기능 분리. 오디오 채널 관리. |
-| `MissionCheck.cs` | 현재 AR 마커가 유효한 유물인지 판별. `Status.TRACKED` 기반 유물 매칭. |
-| `Mission_UIManager.cs` | 미션 씬 UI 구성. 캐릭터별 스프라이트, 배경, 유물 이미지 설정. |
-| `Game_[캐릭터].cs` | 각 캐릭터(예: Suro, Bihwa)의 이벤트, 대사, 애니메이션 로직 포함. |
-| `Tutorial_UIManager.cs` / `Title_UIManager.cs` | 영상 재생과 씬 전환, 튜토리얼 연출 흐름 제어. |
-| `CameraResolution.cs` | 16:9 비율 유지, Canvas 스케일 조정, 레터박스 구현. |
+| `GameManager.cs` | 전체 게임 흐름 및 진행 상태 관리 |
+| `DialogManager.cs` | 대화창, 타이핑 연출, 나레이션 타이밍 제어 |
+| `SoundManager.cs` / `SoundFunction.cs` | 배경음, 효과음, 캐릭터 음성 관리 |
+| `MissionCheck.cs` | 마커 인식 결과로 유물 판별 |
+| `Game_[캐릭터].cs` | 캐릭터별 미션 진행, 대사, 애니메이션 |
+| `Tutorial_UIManager.cs`, `Title_UIManager.cs` | 씬 전환, 영상 재생, 튜토리얼 제어 |
+| `CameraResolution.cs` | 16:9 비율 유지 및 레터박스 처리 |
 
-### 예시 코드: AR 유물 인식 판별
 ```csharp
+// 유물 인식 판별 예시
 if (imgTarget[2].CurrentStatus == TrackableBehaviour.Status.TRACKED)
 {
     findRelicState = true;
@@ -84,33 +83,10 @@ if (imgTarget[2].CurrentStatus == TrackableBehaviour.Status.TRACKED)
 }
 ````
 
-### 예시 코드: 대화 출력 & 사운드 연동
-
 ```csharp
+// 대화 타이핑 + 사운드 연동
 Dialog_TM.DOText(dialog_str, Typing_speed);
 SoundManager.Instance.PlayCharacterDialog("복둥이 1", 8f);
-```
-
----
-
-## 📁 디렉토리 구조 예시
-
-```
-Assets/
-├── Scripts/
-│   ├── UI/
-│   │   ├── Title_UIManager.cs
-│   │   ├── Tutorial_UIManager.cs
-│   │   ├── Mission_UIManager.cs
-│   ├── Characters/
-│   │   ├── Game_Suro.cs
-│   │   ├── Game_Bihwa.cs
-│   │   └── Game_Goro.cs ...
-│   ├── AR/
-│   │   └── MissionCheck.cs
-│   ├── System/
-│   │   ├── SoundManager.cs
-│   │   └── CameraResolution.cs
 ```
 
 ---
@@ -120,15 +96,15 @@ Assets/
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/33925c28-de1b-4c4f-96ba-55b82f8f4c51" width="320"/><br>
+      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/33925c28-de1b-4c4f-96ba-55b82f8f4c51" width="300"/><br>
       <sub>스크린샷 1</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/3fd2d25d-ebc0-48e6-974f-39e3f63e01e5" width="320"/><br>
+      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/3fd2d25d-ebc0-48e6-974f-39e3f63e01e5" width="300"/><br>
       <sub>스크린샷 2</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/d7b5cb0e-fe93-491c-8d3d-872d0dfffa37" width="320"/><br>
+      <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/d7b5cb0e-fe93-491c-8d3d-872d0dfffa37" width="300"/><br>
       <sub>스크린샷 3</sub>
     </td>
   </tr>
@@ -136,30 +112,7 @@ Assets/
 
 ---
 
-## 🚀 실행 방법
-
-1. Unity 2022.3 이상에서 프로젝트 열기
-2. Vuforia Developer License Key 등록
-3. `00TitleScreen` 씬 실행
-4. 실제 마커를 사용하거나 에디터에서 테스트 가능
-
----
-
-## 🎯 향후 개선 사항
-
-* UI 반응성 향상 및 모바일 해상도 최적화
-* 다양한 언어(영어, 일본어 등) 지원
-* 추가 유물 및 캐릭터 확장 콘텐츠 적용
-
----
-
-## 📌 참고 및 권한
-
-* 본 콘텐츠는 복천 박물관과 협업하여 제작된 교육용 앱입니다.
-* 소스코드 및 이미지의 상업적 무단 사용은 금지됩니다.
-* 배포 및 라이선스 관련 문의: mcmedia solution
-
-<h2>📎 부록: 캐릭터별 유물 및 마커 정보</h2>
+## 📎 부록: 캐릭터별 유물 및 마커 정보
 
 <table>
   <thead>
@@ -216,9 +169,20 @@ Assets/
   </tbody>
 </table>
 
-> 🧾 **마커 이미지**는 박물관에서 제공한 실제 인식용 이미지입니다. 위 이미지는 예시이며, 실제 콘텐츠에서는 각 유물마다 고유한 Vuforia 마커가 연결되어 있습니다.
+> ※ 위 마커 이미지는 예시이며, 실제 콘텐츠에서는 Vuforia AR 마커로 활용됩니다.
 
-## 🔎 참고 사항
-- AR 마커는 Vuforia에서 등록된 이미지로 구성되어 있으며, `MissionCheck.cs`에서 마커 ID와 캐릭터 이름을 매핑하여 유물 판별 로직을 수행합니다.
-- 마커 인식 성공 시 → 미션 성공 애니메이션, 실패 시 → 캐릭터별 힌트 대사 출력.
-- 마커 순서는 배열로 정리되어 있으며 `[0]~[8]` 번까지 인덱스를 사용합니다.
+---
+
+## 🚀 실행 방법
+
+1. Unity 2022.3 이상에서 프로젝트 열기
+2. Vuforia 개발자 키 등록
+3. `00TitleScreen` 씬 실행
+4. 에디터 또는 실제 마커 기반 테스트 진행
+---
+
+## 📌 라이선스 및 문의
+
+* 본 프로젝트는 복천 박물관과 협업한 교육용 AR 콘텐츠입니다.
+* 무단 복제, 상업적 사용을 금지합니다.
+
