@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/2687b971-235f-452c-b942-893b03d6f936)![image](https://github.com/user-attachments/assets/2687b971-235f-452c-b942-893b03d6f936)<div align="center">
   <img src="https://github.com/JISUSAMA/JISUSAMA/assets/38304918/47a5212d-7794-4c49-ae09-38466b9c9c4c" alt="복둥이의 시간여행 메인 이미지">
 </div>
 
@@ -159,17 +159,62 @@ Assets/
 * 소스코드 및 이미지의 상업적 무단 사용은 금지됩니다.
 * 배포 및 라이선스 관련 문의: mcmedia solution
 
-## 📎 부록: 캐릭터별 유물 및 마커 정보
+<h2>📎 부록: 캐릭터별 유물 및 마커 정보</h2>
 
-| 캐릭터 | 유물 이름 | 설명 | 마커 이미지 (예시) |
-|--------|-----------|------|---------------------|
-| 복둥이 | 하늘을 나는 신발 | 가야의 상상력을 담은 전설 속 신발 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker1.png) |
-| 수로 | 고리자루칼 | 나라를 세우기 위한 상징적인 무기 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker2.png) |
-| 비화 | 굽다리 접시 | 다리가 달린 독특한 모양의 식기 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker3.png) |
-| 황옥 | 목걸이 | 부모님에게 물려받은 소중한 보물 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker4.png) |
-| 대로 | 재갈 | 말을 제어하는 도구, 말타기 필수품 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker5.png) |
-| 고로 | 투구 | 몸을 보호하기 위한 방어용 장비 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker6.png) |
-| 말로 | 화로 모양 그릇 받침 | 불을 담는 그릇 받침, 금속 작업에 사용 | ![](https://github.com/JISUSAMA/JISUSAMA/assets/38304918/example-marker7.png) |
+<table>
+  <thead>
+    <tr>
+      <th>캐릭터</th>
+      <th>유물 이름</th>
+      <th>설명</th>
+      <th>마커 이미지 (예시)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>복둥이</td>
+      <td>하늘을 나는 신발</td>
+      <td>가야의 상상력을 담은 전설 속 신발</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Bokdungi_scaled.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>수로</td>
+      <td>고리자루칼</td>
+      <td>나라를 세우기 위한 상징적인 무기</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Suro.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>비화</td>
+      <td>굽다리 접시</td>
+      <td>다리가 달린 독특한 모양의 식기</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Bihwa_scaled.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>황옥</td>
+      <td>목걸이</td>
+      <td>부모님에게 물려받은 소중한 보물</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Hwangok_scaled.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>대로</td>
+      <td>재갈</td>
+      <td>말을 제어하는 도구, 말타기 필수품</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Daero_scaled.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>고로</td>
+      <td>투구</td>
+      <td>몸을 보호하기 위한 방어용 장비</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Goro_scaled.jpg" width="100"/></td>
+    </tr>
+    <tr>
+      <td>말로</td>
+      <td>화로 모양 그릇 받침</td>
+      <td>불을 담는 그릇 받침, 금속 작업에 사용</td>
+      <td><img src="https://raw.githubusercontent.com/BUGISU/Bokcheon-dong/main/ScreenShots/Malro_scaled.jpg" width="100"/></td>
+    </tr>
+  </tbody>
+</table>
 
 > 🧾 **마커 이미지**는 박물관에서 제공한 실제 인식용 이미지입니다. 위 이미지는 예시이며, 실제 콘텐츠에서는 각 유물마다 고유한 Vuforia 마커가 연결되어 있습니다.
 
