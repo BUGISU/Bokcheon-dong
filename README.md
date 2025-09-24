@@ -29,28 +29,28 @@
 
 | 화면           | 설명                       | 이미지                           |
 | ------------ | ------------------------ | ----------------------------- |
-| **타이틀 화면**   | 게임 시작, 복둥이와 시간여행 출발      | ![타이틀](Screenshots/그림1.png)   |
-| **캐릭터 소개**   | 복둥이와 가야 친구들의 등장, 퀘스트 안내  | ![캐릭터소개](Screenshots/그림3.png) |
-| **유물 찾기 안내** | 카메라로 유물 안내판을 스캔하는 미션     | ![유물찾기](Screenshots/그림4.png)  |
-| **퀘스트 진행**   | 캐릭터와의 대화로 힌트 및 피드백 제공    | ![퀘스트](Screenshots/그림5.png)   |
-| **선택 화면**    | 친구 선택 후 개별 퀘스트 수행        | ![선택](Screenshots/그림6.png)    |
-| **진행 완료**    | 모든 친구의 유물 퀘스트 완료 시 결과 출력 | ![완료](Screenshots/그림7.png)    |
+| **타이틀 화면**   | 게임 시작, 복둥이와 시간여행 출발      | ![타이틀](ScreenShots/그림1.png)   |
+| **캐릭터 소개**   | 복둥이와 가야 친구들의 등장, 퀘스트 안내  | ![캐릭터소개](ScreenShots/그림3.png) |
+| **유물 찾기 안내** | 카메라로 유물 안내판을 스캔하는 미션     | ![유물찾기](ScreenShots/그림4.png)  |
+| **퀘스트 진행**   | 캐릭터와의 대화로 힌트 및 피드백 제공    | ![퀘스트](ScreenShots/그림5.png)   |
+| **선택 화면**    | 친구 선택 후 개별 퀘스트 수행        | ![선택](ScreenShots/그림6.png)    |
+| **진행 완료**    | 모든 친구의 유물 퀘스트 완료 시 결과 출력 | ![완료](ScreenShots/그림7.png)    |
 
 
 ## 🎞️ 시연 GIF
 
 | 설명              | 이미지                                                                 |
 | --------------- | ------------------------------------------------------------------- |
-| **AR 유물 인식 예시** | ![](Screenshots/293630507-df650402-0289-4444-b64b-294c012eff30.gif) |
-| **유물 퀘스트 진행**   | ![](Screenshots/293630607-5fee957b-0924-4862-b3f7-61330f14cb2e.gif) |
-| **캐릭터 대화 예시**   | ![](Screenshots/293633270-6168c095-5034-4d81-af3f-4b69eab93b91.gif) |
-| **퀘스트 완료 장면**   | ![](Screenshots/293633323-05ad2c94-73ca-4569-958b-947661ceae97.gif) |
+| **AR 유물 인식 예시** | ![](ScreenShots/293630507-df650402-0289-4444-b64b-294c012eff30.gif) |
+| **유물 퀘스트 진행**   | ![](ScreenShots/293630607-5fee957b-0924-4862-b3f7-61330f14cb2e.gif) |
+| **캐릭터 대화 예시**   | ![](ScreenShots/293633270-6168c095-5034-4d81-af3f-4b69eab93b91.gif) |
+| **퀘스트 완료 장면**   | ![](ScreenShots/293633323-05ad2c94-73ca-4569-958b-947661ceae97.gif) |
 
 ## 📎 캐릭터별 AR 마커
 
 | 복둥이 (신발 모양 토기)                                           | 수로 (고리자루칼)                                    | 비화 (굽다리 접시)                                           | 황옥 (목걸이)                                                | 대로 (재갈)                                               | 고로 (투구)                                              | 말로 (화로 모양 그릇 받침)                                      |
 | -------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| <img src="Screenshots/Bokdungi_scaled.jpg" width="100"/> | <img src="Screenshots/Suro.jpg" width="100"/> | <img src="Screenshots/Bihwa_scaled.jpg" width="100"/> | <img src="Screenshots/Hwangok_scaled.jpg" width="100"/> | <img src="Screenshots/Daero_scaled.jpg" width="100"/> | <img src="Screenshots/Goro_scaled.jpg" width="100"/> | <img src="Screenshots/Malro_scaled.jpg" width="100"/> |
+| <img src="ScreenShots/Bokdungi_scaled.jpg" width="100"/> | <img src="ScreenShots/Suro.jpg" width="100"/> | <img src="ScreenShots/Bihwa_scaled.jpg" width="100"/> | <img src="ScreenShots/Hwangok_scaled.jpg" width="100"/> | <img src="ScreenShots/Daero_scaled.jpg" width="100"/> | <img src="ScreenShots/Goro_scaled.jpg" width="100"/> | <img src="Screenshots/Malro_scaled.jpg" width="100"/> |
 
 
 ## 🔍 코드 구조 (일부)
