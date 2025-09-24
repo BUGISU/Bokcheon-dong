@@ -27,22 +27,22 @@
 
 | 화면           | 설명                       | 이미지                                          |
 | ------------ | ------------------------ | -------------------------------------------- |
-| **타이틀 화면**   | 게임 시작, 복둥이와 시간여행 출발      | <img src="Screenshots/그림1.png" width="280"/> |
-| **캐릭터 소개**   | 복둥이와 가야 친구들의 등장, 퀘스트 안내  | <img src="Screenshots/그림3.png" width="280"/> |
-| **유물 찾기 안내** | 카메라로 유물 안내판을 스캔하는 미션     | <img src="Screenshots/그림4.png" width="280"/> |
-| **퀘스트 진행**   | 캐릭터와의 대화로 힌트 및 피드백 제공    | <img src="Screenshots/그림5.png" width="280"/> |
-| **선택 화면**    | 친구 선택 후 개별 퀘스트 수행        | <img src="Screenshots/그림6.png" width="280"/> |
-| **진행 완료**    | 모든 친구의 유물 퀘스트 완료 시 결과 출력 | <img src="Screenshots/그림7.png" width="280"/> |
+| **타이틀 화면**   | 게임 시작, 복둥이와 시간여행 출발      | <img src="ScreenShots/그림1.png" width="280"/> |
+| **캐릭터 소개**   | 복둥이와 가야 친구들의 등장, 퀘스트 안내  | <img src="ScreenShots/그림3.png" width="280"/> |
+| **유물 찾기 안내** | 카메라로 유물 안내판을 스캔하는 미션     | <img src="ScreenShots/그림4.png" width="280"/> |
+| **퀘스트 진행**   | 캐릭터와의 대화로 힌트 및 피드백 제공    | <img src="ScreenShots/그림5.png" width="280"/> |
+| **선택 화면**    | 친구 선택 후 개별 퀘스트 수행        | <img src="ScreenShots/그림6.png" width="280"/> |
+| **진행 완료**    | 모든 친구의 유물 퀘스트 완료 시 결과 출력 | <img src="ScreenShots/그림7.png" width="280"/> |
 
 
 ## 🎞️ 시연 GIF
 
 | 설명              | 이미지                                                                                     |
 | --------------- | --------------------------------------------------------------------------------------- |
-| **AR 유물 인식 예시** | <img src="Screenshots/293630507-df650402-0289-4444-b64b-294c012eff30.gif" width="320"/> |
-| **유물 퀘스트 진행**   | <img src="Screenshots/293630607-5fee957b-0924-4862-b3f7-61330f14cb2e.gif" width="320"/> |
-| **캐릭터 대화 예시**   | <img src="Screenshots/293633270-6168c095-5034-4d81-af3f-4b69eab93b91.gif" width="320"/> |
-| **퀘스트 완료 장면**   | <img src="Screenshots/293633323-05ad2c94-73ca-4569-958b-947661ceae97.gif" width="320"/> |
+| **AR 유물 인식 예시** | <img src="ScreenShots/293630507-df650402-0289-4444-b64b-294c012eff30.gif" width="320"/> |
+| **유물 퀘스트 진행**   | <img src="ScreenShots/293630607-5fee957b-0924-4862-b3f7-61330f14cb2e.gif" width="320"/> |
+| **캐릭터 대화 예시**   | <img src="ScreenShots/293633270-6168c095-5034-4d81-af3f-4b69eab93b91.gif" width="320"/> |
+| **퀘스트 완료 장면**   | <img src="ScreenShots/293633323-05ad2c94-73ca-4569-958b-947661ceae97.gif" width="320"/> |
 
 
 ## 📎 캐릭터별 AR 마커
